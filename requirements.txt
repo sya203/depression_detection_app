@@ -1,5 +1,4 @@
 spacy
-#matplotlib.pyplot
 matplotlib
 numpy
 streamlit
