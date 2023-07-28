@@ -1,0 +1,8 @@
+spacy
+matplotlib.pyplot
+matplotlib
+numpy
+streamlit
+pickle
+joblib, os
+pandas
