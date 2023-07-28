@@ -4,5 +4,6 @@ matplotlib
 numpy
 streamlit
 pickle
-joblib, os
+joblib=1.2.0
 pandas
+wordcloud
