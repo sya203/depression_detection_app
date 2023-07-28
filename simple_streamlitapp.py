@@ -48,7 +48,7 @@ def main():
             #st.text("Original test::{}\n".format(post_text))
             st.text("{}\n".format(post_text))
             vect_text = posts_cv.transform([post_text]).toarray()
-            predictor = load_model("/Users/hasyafarwizah/Downloads/rapidfinalmodel.pkl")
+            predictor = load_model("rapidfinalmodel.pkl")
             prediction = predictor.predict(vect_text)
             #st.write(prediction)
             final_result = get_keys(prediction,prediction_labels)
