@@ -7,3 +7,5 @@ joblib==1.2.0
 pandas
 wordcloud
 en_core_web_sm==3.0.0
+chromadb==0.3.26 
+pydantic==1.10.8
