@@ -18,7 +18,7 @@ matplotlib.use("Agg")
 from wordcloud import WordCloud, ImageColorGenerator
 
 #vectorizer
-text_vectorizer = open("/Users/hasyafarwizah/Downloads/tfidf.pkl","rb")
+text_vectorizer = open("tfidf.pkl","rb")
 posts_cv = joblib.load(text_vectorizer)
 
 #Load prediction model
