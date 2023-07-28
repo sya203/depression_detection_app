@@ -5,3 +5,4 @@ streamlit
 joblib==1.2.0
 pandas
 wordcloud
+-r spacy_requirements.txt
