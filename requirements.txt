@@ -2,7 +2,6 @@ spacy
 matplotlib
 numpy
 streamlit
-pickle
 joblib==1.2.0
 pandas
 wordcloud
