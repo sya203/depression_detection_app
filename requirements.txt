@@ -1,10 +1,10 @@
 spacy
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.3/en_core_web_sm-3.5.3.tar.gz#egg=en_core_web_sm
+https://github.com/explosion/spacy-models/blob/master/meta/en_core_web_lg-3.5.0.json
 matplotlib
 numpy
 streamlit
 joblib==1.2.0
 pandas
 wordcloud
-en_core_web_sm==3.0
+en_core_web_sm==3.5.3
 pydantic==1.8
