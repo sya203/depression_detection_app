@@ -6,5 +6,5 @@ streamlit
 joblib==1.2.0
 pandas
 wordcloud
-en_core_web_sm==3.5.3
+en_core_web_sm==3.5.0
 pydantic==1.8
