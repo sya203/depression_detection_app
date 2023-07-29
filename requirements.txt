@@ -8,3 +8,5 @@ pandas
 wordcloud
 en_core_web_sm==3.5.0
 pydantic==1.10.8
+scikit-learn
+seaborn
