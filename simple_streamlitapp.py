@@ -30,6 +30,22 @@ def get_keys(val, my_dict):
     for key, value in my_dict.items():
         if val == value:
             return key
+
+def add_bg_from_url():
+    st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://e0.pxfuel.com/wallpapers/590/234/desktop-wallpaper-blue-aesthetic-cloud-dark-blue-cloud.jpg");
+             background-attachment: fixed;
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
+
+add_bg_from_url()
         
 #main function
 def main():
