@@ -98,13 +98,13 @@ def main():
             st.dataframe(new_df)
 
 
-    if st.checkbox("WordCloud"):
-        c_text = raw_text
-        wordcloud = WordCloud().generate(c_text)
-        plt.imshow(wordcloud,interpolation='bilinear')
-        plt.axis("off")
-        st.pyplot()
-    st.set_option('deprecation.showPyplotGlobalUse', False)
+        if st.checkbox("WordCloud"):
+            c_text = raw_text
+            wordcloud = WordCloud().generate(c_text)
+            plt.imshow(wordcloud,interpolation='bilinear')
+            plt.axis("off")
+            st.pyplot()
+        st.set_option('deprecation.showPyplotGlobalUse', False)
 
 if __name__ == '__main__':
     main()
